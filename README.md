@@ -1,0 +1,2 @@
+## Pyfmt-> Branch aware python pre commit hook
+It is a pre commit hook for python fmter which formats the python files using black, but only formats newly added files. It uses sled(embedded database) to keep track of what files were added by you in the branch, so that next time when those files are modified it can still format them.
